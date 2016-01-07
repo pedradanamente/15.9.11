@@ -1,0 +1,230 @@
+body {
+	margin: 0 auto;
+	padding:0 15px;
+background-color: #DDD;
+	background-image: url("../images/bgfscripting.jpg");
+}
+.container, .container-fluid {
+}
+.row {
+	border:0px;
+}
+[class*="col-"], header, footer, nav, aside, section, div[role="main"] {
+ padding-top: 15px;
+ padding-bottom: 15px;
+ text-align: center;
+}
+div[role="main"] {
+}
+div[role="main"], nav, aside {
+ min-height: 200px;
+}
+
+/* MEDIA */
+@media (min-width: 568px) {
+  .container {
+    width: 550px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 930px;
+  }
+}
+@media (min-width: 1080px) {
+  .container {
+    width: 930px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 930px;
+  }
+}
+/* ALTERADO */
+.nav {
+	color:#FFF;
+}
+.nav a {
+	color:#FFF;
+}
+.nav-tabs {
+	margin:-15px auto;
+border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.nav-tabs ul {
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+.nav-tabs li {
+    margin-left:0px;
+    margin-right:0px;
+	border:0px;
+	padding:0px;
+	width:103.33px;
+	height: 40px;
+	border-bottom:0px;
+border-top: 5px solid rgba(0,0,0,0.2);
+border-bottom: 0px solid rgba(0,0,0,0.1);
+font-size:12px;
+background-color: rgba(0,0,0,0.4);
+}
+.nav-tabs li:hover {
+border-top: 5px solid #38C;
+}
+
+.nav-tabs li a {
+	border-bottom:0px;
+	margin:0px;
+    border-radius: 0px;
+	color: #FFF;
+	padding-top:6px;
+	height:100%;
+	text-shadow: 1px -1px 10px #F1F9EE;
+
+} 
+.nav-tabs li a:hover {
+	border:0px;
+background-color: #F67D7D;
+} 
+.nav-tabs li a:active {
+	border:0px;
+background-color: #F67D7D;
+} 
+
+.nav-tabs li .social {
+	letter-spacing:1px;
+	color:#fff;
+	margin:0px;
+}
+.nav-tabs .active {
+border-top: 5px solid #38C;
+}
+.nav-tabs .active .social {
+	color:#777272;
+}
+/* FONTE */
+.sans {
+	font-family: "Open Sans",sans-serif,"lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma;
+}
+.tab-content {
+background-color: #EEE;
+	background-image: url("../images/bgf.png");
+	border:0px;
+	border-top:3px solid #CFFC78;
+	margin:-29px -15px;
+	min-height:450px;
+	color:#333;
+}
+.box-content {
+
+background-color: #FFF;
+	border:0px;
+border-top:1px solid #A1F3C2;
+border-bottom:1px solid #A1F3C2;
+	min-height:200px;
+	margin:0px;
+	padding:15px;
+}
+.blocos {
+	background-color:#FFF;
+	padding:0px;
+}
+.jumbotron {
+	background-color: #353839;
+border-bottom: 5px solid #7AD4A7;
+border-top: 1px solid #96E3AF;
+padding:15px;
+color: #FFF;
+border-radius: 0px !important;
+}
+/* PORTFOLIO */
+h3 {
+	padding:0px;
+	margin:15px;
+}
+footer {
+	background-image: url("../images/bgf.png");
+	min-height:200px;
+}
+.footerbottom {
+	background-image: url("../images/bg2.jpe");
+	height:100px;
+background: none repeat scroll 0% 0% #333;
+border-top: 8px solid #FE6161;
+border-bottom: 0px solid #DDD;
+padding:15px;
+background-color: #353839;
+box-shadow: 1px 1px 65px #FFF;
+text-shadow: 1px -1px 10px #FFFFFC;
+color:#EEE;
+}
+.subpage-image {
+	margin-top:0px;
+}
+.boxtop-subpage {padding:15px;}
+.box-subpage {
+	text-align:left;
+color: #3E3F3F;
+margin-bottom: 16px;
+font-weight: 300;
+letter-spacing: 1px;
+text-shadow: 1px -1px 10px #FFFFFC;
+margin-top:10px;margin-left:20px;
+}
+.fl {float:left;}
+.fr {float:right;}
+.p-bloco {
+    line-height: 18px;
+    letter-spacing: 0px;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    font-size: 12px;
+}
+
+
+
+.portfolio-p {
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	font-family: "Open Sans",sans-serif,"lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma;
+
+    margin-left:0px;
+    margin-right:0px;
+	border:0px;
+	padding:5px 5px;
+	border-bottom:0px;
+border-top: 5px solid #75B3E4;
+border-bottom: 1px solid #E0EEF9;
+font-size:12px;
+    letter-spacing: 1px;
+    color: #414040;
+}
+.portfolio-thumbnail {
+	margin:0 auto;
+	width:120px;
+	height:120px;
+border: 1px solid rgba(198, 209, 213, 0.99);
+box-shadow: 1px 1px 5px #888;
+text-align:center;
+float:center;
+}
+.portfolio-url {
+	padding:15px;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    font-size: 12px;
+    color: #414040;
+}
+.portfolio-thumbnail:active {
+border: 5px solid rgba(198, 209, 213, 0.99);
+}
+.portfolio-box {
+	margin:0 auto;
+	border:1px solid #D1D1D1;
+	padding:15px;
+	margin:5px 0px 25px 0px;
+	background-image: url("../images/bgf.png");
+}
+
+
